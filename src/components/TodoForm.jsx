@@ -2,13 +2,13 @@ const TodoForm = () => {
 	return (
 		<div>
 			<form action="#">
-				<div class="mb-3">
-					<label for="exampleInputEmail1" class="form-label">
+				<div className="mb-3">
+					<label htmlFor="exampleInputEmail1" className="form-label">
 						Todo Item
 					</label>
-					<input type="text" class="form-control" id="todo" />
+					<input type="text" className="form-control" id="todo" />
 				</div>
-				<button type="submit" class="btn btn-primary">
+				<button type="submit" className="btn btn-primary">
 					Add Todo{" "}
 				</button>
 			</form>
