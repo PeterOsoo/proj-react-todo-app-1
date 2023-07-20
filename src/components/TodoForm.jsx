@@ -4,11 +4,11 @@ const TodoForm = () => {
 			<form action="#">
 				<div className="mb-3">
 					<label htmlFor="exampleInputEmail1" className="form-label">
-						Todo Item
+						What are you intending to do?
 					</label>
 					<input type="text" className="form-control" id="todo" />
 				</div>
-				<button type="submit" className="btn btn-primary">
+				<button type="submit" className="btn btn-dark">
 					Add Todo{" "}
 				</button>
 			</form>
