@@ -16,9 +16,9 @@ const TodoContainer = () => {
 				</a>
 			</div>
 			<h5>3 tasks remaining</h5>
-			<Todo />
-			<Todo />
-			<Todo />
+			<Todo name="Eat" />
+			<Todo name="Sleep" />
+			<Todo name="Watch" />
 			<button type="button" className="btn btn-danger my-3">
 				Clear Todo{" "}
 			</button>

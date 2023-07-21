@@ -1,10 +1,10 @@
 import { LiaCheckSolid, LiaTrashSolid, LiaPenSolid } from "react-icons/lia"
 
-const Todo = () => {
+const Todo = ({ name }) => {
 	return (
 		<div className="card">
 			<div className="card-body">
-				<span>Todo</span> <LiaPenSolid /> <LiaCheckSolid /> <LiaTrashSolid />
+				<span>{name} </span> <LiaPenSolid /> <LiaCheckSolid /> <LiaTrashSolid />
 			</div>
 
 			{/* <span className="bi bi-trash"></span> */}
